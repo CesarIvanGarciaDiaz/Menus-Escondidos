@@ -1,0 +1,74 @@
+.container {
+    margin: 0 0 0 150px;
+    width: 720px;
+    padding-left: 20px;
+}
+
+nav {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    /*left: 0;*/
+    top: 0;
+    z-index: 1;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    border-right: 2px;
+    background-color: rgb(198, 201, 195);
+    margin: 0;
+    height: 100%;
+    left: -20%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    padding: 15px 50px 15px 0;
+    text-decoration: none;
+    border-bottom: 1px solid #9a9795;
+    /* Establecemos una transición a todas las propiedades */
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+ul li a:hover {
+    background: white;
+    /* Cambiamos el fondo cuando el usuario pase el mouse */
+    color: black;
+}
+
+.content,  h1 {
+    padding: 0px 0px 0px 0px;
+}
+
+.menu_bar {
+    position: fixed;
+    /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    left: 0;
+    top: 0;
+    /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    border-right: 2px;
+    background-color: rgb(198, 201, 195);
+    margin: 0;
+    height: 100%;
+}
+
+a .icono-list {
+    color: #0b2a83;
+    left: 0;
+    height: 10px;
+    width: 5px;
+
+
+}
+
+a .icono-crossCircle {
+    color: #9e0909;
+    left: 105px;
+    /*z-index: 2;*/
+  font-weight: bold;
+
+}
